@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', url: 'https://github.com/Rig-vardhan/devops_git'
-                bat 'py intro.py'
+                bat 'python intro.py'
             }
         }
         stage('Test') {
