@@ -1,5 +1,5 @@
 FROM python:3.10-slim
 COPY . /intro
 WORKDIR /intro
-ENTRYPOINT ["python"]
+ENTRYPOINT ["py"]
 CMD ["intro.py"]
