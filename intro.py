@@ -4,7 +4,7 @@ the quick brown fox jump over the lazy dog.
 
 abcdefghijklmnopqrstuwwxyz.
 
-abcdefghijklmnopqrstuvwxyz.
+abcdefghijklmnopqrstuvwxyz.
 """
 
 print('Hello python')
