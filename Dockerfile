@@ -1,6 +1,5 @@
-FROM python:3.10-slim
-MAINTAINER Rigvardhan "vardhanmaurya.shivam20@gmail.com"
-COPY . /app
-WORKDIR /app
+FROM Python 3.14.4
+COPY . /intro
+WORKDIR /intro
 ENTRYPOINT ["python"]
 CMD ["intro.py"]
